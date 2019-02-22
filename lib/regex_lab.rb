@@ -7,7 +7,7 @@ end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-matches = text.scan(/\bun[a-z]ing\b/)
+matches = text.scan(/\bun[a-z]{1,}ing\b/)
 matches
 end
 
