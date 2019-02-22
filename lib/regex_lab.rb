@@ -16,7 +16,7 @@ text.scan(/\b[a-z]{5}\b/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-if text.match(/\b[A-Z][a-z]{1,}[.,!?]/) != nil
+if text.match(/\b[A-Z][a-z]{1,}[".",!?]/) != nil
   TRUE
 end
 end
